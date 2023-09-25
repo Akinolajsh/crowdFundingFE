@@ -1,6 +1,7 @@
 import {createBrowserRouter} from "react-router-dom"
 import Layout from "../components/common/Layout"
 import HomeScreen from "../Pages/Home/HomeScreen"
+import AbegDetailDescription from "../Pages/description/AbegDetailDescription"
 
 export const mainRouter= createBrowserRouter([
     {
@@ -12,5 +13,9 @@ export const mainRouter= createBrowserRouter([
                 element: <HomeScreen/>
             }
         ]
+    },
+    {
+        path: "/description",
+        element: <AbegDetailDescription/>
     }
 ])
