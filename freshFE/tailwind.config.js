@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       screens: {
+        big: { max: "900px" },
         meduim: { max: "768px" },
         small: { max: "320px" },
       },
